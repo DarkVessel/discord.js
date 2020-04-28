@@ -10,7 +10,7 @@ declare enum ChannelType {
 }
 
 declare module 'discord.js' {
-  import BaseCollection from '@discordjs/collection';
+  import BaseCollection from '@discordjs/collection/dist/index.d.js';
   import { EventEmitter } from 'events';
   import { Stream, Readable, Writable } from 'stream';
   import { ChildProcess } from 'child_process';
